@@ -1,0 +1,37 @@
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+
+p {
+    font-weight: 600;
+    font-size: 3em;
+    line-height: 50px;
+}
+
+body {
+    font-size: 16px;
+    font-style: oblique;
+    line-height: 18px;
+    text-align: left;
+    text-decoration: none;
+}
+
+ul {
+    background-color: yellowgreen;
+}
+
+.listaepbgcollor {
+    background-color: yellowgreen;          
+} 
+
+ul li bgamarelo{
+    background-color: yellow;
+}
+ul li bgvermelho{
+    background-color: red;
+}
+ul li bgmarrom{
+    background-color: brown;
+}
