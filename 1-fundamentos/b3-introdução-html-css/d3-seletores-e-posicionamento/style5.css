@@ -34,3 +34,32 @@ li em {
 li.java {
     background-color: pink;
 }
+
+.aliados li:hover {
+    font-weight: 900;
+}
+
+.aliados li:hover a[href*="stackoverflow"] {
+    font-weight: 900;
+    color: orange;
+}
+
+.aliados li:hover a[href*="w3schools"] {
+    font-weight: 900;
+    color: green;
+}
+
+.aliados li:hover a[href*="mozilla"] {
+    font-weight: 900;
+    color: black;
+}
+
+.aliados li:hover a[href*="devdocs"] {
+    font-weight: 900;
+    color: yellow;
+}
+
+.aliados li:hover a[href*="trybe"] {
+    font-weight: 900;
+    color: green;
+}
