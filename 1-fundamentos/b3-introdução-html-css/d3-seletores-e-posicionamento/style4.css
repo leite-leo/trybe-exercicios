@@ -14,6 +14,7 @@ div:nth-of-type(2) > h3 {
 div:nth-of-type(3) > h3 {
     background-color:rgb(55, 61, 61);
     font-size: x-large;
+    height: 50px;
 }
 
 div:nth-of-type(4) > h3 {
@@ -25,4 +26,8 @@ div:nth-of-type(5) > h3 {
     background-color:rgb(165, 207, 207);
     font-family: fantasy;
 }
+
+div:nth-child(odd) h3 {
+    font-style: italic
+  }
 
