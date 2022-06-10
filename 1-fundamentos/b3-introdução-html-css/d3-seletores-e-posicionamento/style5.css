@@ -31,7 +31,11 @@ li em {
     color: blue;
 }
 
-li.java {
+/*li.linguagens[value*="Java"] {
+    background-color: pink;
+}  forma correta de procurar um valor nos conteudos de uma lista */
+
+.java {
     background-color: pink;
 }
 
