@@ -13,7 +13,7 @@ let info2 = {
 
 info.recorrente = "sim";
 
-/*console.log("Bem-vinda, " + info.personagem);
+console.log("Bem-vinda, " + info.personagem);
 
 
 
@@ -25,7 +25,7 @@ for (let index in info) {
 
 for (let index in info) {
   console.log(info[index]);
-}*/
+}
 
 for (let index in info) {
   if ((index === 'recorrente') && (info[index] === 'sim') && (info2[index] === 'sim')) {

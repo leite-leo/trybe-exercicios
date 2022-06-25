@@ -1,0 +1,4 @@
+function finalIgual(word, ending) {
+
+
+}
