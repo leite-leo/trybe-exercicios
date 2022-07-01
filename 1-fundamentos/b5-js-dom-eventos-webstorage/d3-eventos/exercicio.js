@@ -62,4 +62,27 @@ btnFeriados.addEventListener('click', function() {
 })
 
 // Exercicio 4:
+function fridayBtn(string) {
+  let buttonContainer = document.getElementsByClassName('buttons-container')[0];
+  let button = document.createElement('button');
+  button.id = 'btn-friday';
+  button.innerHTML = string; 
+  buttonContainer.appendChild(button);
+}
+fridayBtn('Sexta-feira');
+
+// Exercicio 5:
+let btnFriday = document.getElementById('btn-friday');
+btnFriday.addEventListener('click', function() {
+  let newText = 'Sextou!';
+  liDay = document.getElementsByClassName('friday');
+  for(index = 0; index < liDay.length; index += 1){
+    let originalText = liDay[index].innerHTML;
+    if (liDay[index].innerHTML === newText) {
+      liDay[index].innerHTML = originalText;
+    } else {
+      liDay[index].innerHTML = newText;
+    }
+  }
+})
 
