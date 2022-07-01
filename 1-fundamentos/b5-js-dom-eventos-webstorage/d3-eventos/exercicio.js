@@ -10,11 +10,11 @@ function createDaysOfTheWeek() {
     weekDaysList.appendChild(dayListItem);
   };
 };
-
 createDaysOfTheWeek();
 
 // Escreva seu código abaixo.
 
+// Exercício 1:
 let decemberDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
 
 function createDaysOfTheMonth() {
@@ -32,7 +32,34 @@ function createDaysOfTheMonth() {
       dayItem.classList.add('friday');
     }
     lista.appendChild(dayItem);
-  };
-};
-
+  }
+}
 createDaysOfTheMonth();
+
+// Exercício 2:
+function holidayBtn(string) {
+  let buttonContainer = document.getElementsByClassName('buttons-container')[0];
+  let button = document.createElement('button');
+  button.id = 'btn-holiday';
+  button.innerHTML = string; 
+  buttonContainer.appendChild(button);
+}
+holidayBtn('Feriados');
+
+// Exercício 3:
+let btnFeriados = document.getElementById('btn-holiday');
+btnFeriados.addEventListener('click', function() {
+  let newColor = 'yellow';
+  let originalColor = 'rgb(238,238,238)';
+  liDay = document.getElementsByClassName('holiday');
+  for(index = 0; index < liDay.length; index += 1){
+    if (liDay[index].style.backgroundColor === newColor) {
+      liDay[index].style.backgroundColor = originalColor;
+    } else {
+      liDay[index].style.backgroundColor = newColor;
+    }
+  }
+})
+
+// Exercicio 4:
+
