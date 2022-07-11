@@ -1,0 +1,30 @@
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+#divform {
+    border: 2px solid black;
+    width: 38%;
+    margin: 15px;
+    background-color: rgb(193, 235, 193);
+}
+
+.divline {
+    margin: 15px;
+    width: 96%;
+}
+
+h2 {
+    font-size: 90%;
+}
+
+.buttons {
+    margin: 15px;
+    width: 45%;
+}
+
+#buttons {
+    width: 17%;
+    margin: 0 auto;
+}
