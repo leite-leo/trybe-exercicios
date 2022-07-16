@@ -1,0 +1,68 @@
+  h1 {
+    text-align: center;
+  }
+  
+  .black {
+    background-color: black;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .red {
+    background-color: red;
+  }
+
+  .white {
+    background-color: white;
+  }
+  
+  .pixelpalette {
+    display: inline-block;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+  }
+
+  .pixelboard {
+    display: inline-block;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+  }
+  
+  #color-palette {
+    border: 2px solid white;
+    width:210px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin: auto;
+  }
+  
+  
+  #pixel-board {
+    border-style: solid;
+    width: 260px;
+    min-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #clear-board { 
+    width: 100px;
+  }
+
+  #div-buton {
+    border: 1px solidd black;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+  }
