@@ -24,5 +24,19 @@ function myFizzBuzz(num) {
   return num;
 }
 
-module.exports = {sum, myRemove, myFizzBuzz};
+function hydrate(consumo) {
+  let qty = 0;
+  for (let index = 0; index < consumo.length; index += 1) {
+    if ((consumo[index] === '1') || (consumo[index] === '2') || (consumo[index] === '3') || (consumo[index] === '4' ) || (consumo[index] === '5') || (consumo[index] === '6') || (consumo[index] === '7') || (consumo[index] === '8') || (consumo[index] === '9')) {
+      qty += parseInt(consumo[index]);
+    }
+  }
+  if (qty === 1) {
+    return qty + ' copo de água';
+  } else {
+    return qty + ' copos de água';
+  }  
+}
+
+module.exports = {sum, myRemove, myFizzBuzz, hydrate};
 
