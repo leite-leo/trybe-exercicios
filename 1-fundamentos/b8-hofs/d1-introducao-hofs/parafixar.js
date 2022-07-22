@@ -2,8 +2,8 @@ const wakeUp = () => 'Acordando!';
 const breakfast = () => 'Bora tomar café!';
 const sleep = () => 'Partiu dormir!';
 
-const doingThings = (action) => action();
+const doingThings = (action) => console.log(action());
 
-console.log(doingThings(wakeUp));
-console.log(doingThings(sleep));
+doingThings(wakeUp);
+doingThings(sleep);
  
